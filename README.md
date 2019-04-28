@@ -70,6 +70,8 @@ Therefore, I decided not to merge the two datasets but to create separate charts
 More data wrangling detail can be found [here](Violations_Crashes_Data_Cleaning.ipynb)
 <br/>
 <br/>
+<br/>
+
 ![Finding3](images/Finding3.png)
 
 The charts showed that even though the number of violations is **decreasing**, the number of speed-related crashes is **increasing**. This finding definitely is worth looking into, as it is important to evaluate the impact on implementing speed violation cameras.
