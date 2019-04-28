@@ -70,7 +70,6 @@ Therefore, I decided not to merge the two datasets but to create separate charts
 More data wrangling detail can be found [here](Violations_Crashes_Data_Cleaning.ipynb)
 <br/>
 <br/>
-<br/>
 
 ![Finding3](images/Finding3.png)
 
