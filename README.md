@@ -1,7 +1,7 @@
-# Findings of Chicago's Automated Speed Enforcement Program
+# Chicago's Automated Speed Enforcement Program
 A project on interesting findings of Chicago's Automated Speed Enforcement Program data
 
-## Finding 1: High Violation is NOT due to Longer Enforcement Time
+## Finding 1) <br/> High Violation is NOT due to Longer Enforcement Time
 **Datasets & Columns Used** <br/>
 [Speed_Camera_Violations](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4): camera ID, Violation Dates, Violations <br/>
 [Speed Camera Locations](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h): GO-LIVE DATE <br/>
@@ -28,7 +28,7 @@ I believe there are more interesting findings for CHI149, so I plan on looking i
 
 <br/>
 
-## Finding 2: Number of Violations Varies Greatly within a Ward
+## Finding 2) <br/> Number of Violations Varies Greatly within a Ward
 
 At first, I was curious about the number of camera within each ward, so I created a chart to see whether there's a huge difference among the wards. But the chart didn't really show anything interesting. 
 
@@ -51,7 +51,7 @@ Almost every ward has a camera with a very large number of violations comparing 
 
 <br/>
 
-## Finding 3: Decreasing Number of Violations vs. <br/> Increasing Number of Speed-Related Crashes
+## Finding 3) <br/> Decreasing Number of Violations vs. <br/> Increasing Number of Speed-Related Crashes
 
 I was curious about whether there's a relation between the number of violations and the number of speed-related traffic crashes. <br/> 
 During the Data Exploration of Speed Camera Violation dataset, we found that there's an overall decreasing number of violation trend from 2014 to 2019. It would be useful to know whether the reduction of speed violation has actually helped reduce the number of speed-related traffic crash. 
@@ -65,7 +65,19 @@ The table below is how the merged table looks like. As you can see, there are a 
 
 Therefore, I decided not to merge the two datasets but to create separate charts, showing the overall trend of violations and crashes throughout Chicago. Since the data in 2014 and 2019 are not complete (data starts from July in 2014 and ends in April (now) in 2019), I exclude those two years and focus on the **trend from 2015 to 2018**.
 
+<br/>
+
 ![Finding3](images/Finding3.png)
 
 The charts showed that even though the number of violations is **decreasing**, the number of speed-related crashes is **increasing**. This finding definitely is worth looking into, as it is important to evaluate the impact on implementing speed violation cameras.
 
+<br/>
+
+**Dashboard of this project can be found here (link)**
+
+<br/>
+
+## Data Source
+* Speed Camera Violations [Data](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4)
+* Speed Camera Locations [Data](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h)
+* Traffic Crashes - Crashes [Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
