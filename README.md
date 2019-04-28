@@ -3,7 +3,7 @@ A project on interesting findings of Chicago's Automated Speed Enforcement Progr
 
 ## Finding 1) <br/> High Violation is NOT due to Longer Enforcement Time
 **Datasets & Columns Used** <br/>
-[Speed_Camera_Violations](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4): camera ID, Violation Dates, Violations <br/>
+[Speed Camera Violations](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4): camera ID, Violation Dates, Violations <br/>
 [Speed Camera Locations](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h): GO-LIVE DATE <br/>
 I joined the two datasets and calculated the enforcement time of each camera (Today - Go-Live Date). <br/>
 
@@ -28,7 +28,7 @@ I believe there are more interesting findings for CHI149, so I plan on looking i
 
 <br/>
 
-## Finding 2) <br/> Number of Violations Varies Greatly within a Ward
+## Finding 2) <br/> Number of Violations Varies Greatly from Cameras within a Ward
 
 At first, I was curious about the number of camera within each ward, so I created a chart to see whether there's a huge difference among the wards. But the chart didn't really show anything interesting. 
 
