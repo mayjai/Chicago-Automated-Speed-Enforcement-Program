@@ -66,9 +66,10 @@ The table below is how the merged table looks like. As you can see, there are a 
 ![Finding3_2](images/Finding3_2.png)
 
 Therefore, I decided not to merge the two datasets but to create separate charts, showing the overall trend of violations and crashes throughout Chicago. Since the data in 2014 and 2019 are not complete (data starts from July in 2014 and ends in April (now) in 2019), I exclude those two years and focus on the **trend from 2015 to 2018**. <br/>
+<br/>
 More data wrangling detail can be found [here](Violations_Crashes_Data_Cleaning.ipynb)
 <br/>
-
+<br/>
 ![Finding3](images/Finding3.png)
 
 The charts showed that even though the number of violations is **decreasing**, the number of speed-related crashes is **increasing**. This finding definitely is worth looking into, as it is important to evaluate the impact on implementing speed violation cameras.
