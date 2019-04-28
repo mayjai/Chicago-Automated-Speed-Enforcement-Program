@@ -13,8 +13,8 @@ Cameras with longer enforcement days are in bigger boxes; cameras with more viol
 
 ![Finding1](images/Finding1.png)
 
-We can see that **CHI149** definitely stand out from the chart. Comparing to other cameras, CHI149 hasn't been enforced that long, but has caught a lot more violations. <br/>
-I created another chart focusing on the top 10 violation cameras to compare their number of violations and enforcement time.
+We can see that **CHI149** definitely stand out from the chart. Comparing to other cameras, CHI149 hasn't been enforced that long, but has caught a lot more violations. Using treemap, we can easily spot unexpected cameras (those with relatively shorter enforcement time but high in the number of violations), as shown in the above graph. <br/>
+I then created a bar chart focusing on the top 10 violation cameras to compare their number of violations and enforcement time more clearly.
 
 ![Finding1_1](images/Finding1_1.png)
 
@@ -41,7 +41,7 @@ So I looked into each camera within a ward, and found out that the number of vio
 Why the number of violations of the cameras within the same ward varies so much? Is it because the cameras are implemented at improper locations? Should we do more research on where to implement the cameras? For example, we can consider implementing more cameras near the larger number of violation cameras and reducing the number of cameras near the smaller number of violation cameras. 
 
 **Chart Making Process:** <br/>
-At the beginning, I used the same color for all the cameras. <br/>
+I used bar chart to show the comparison more clearly. At the beginning, I used the same color for all the cameras. <br/>
 ![Finding2_2](images/Finding2_2.png)
 
 Then I decided to highlight the ones with very large number to make the point more clear. <br/>
@@ -65,7 +65,7 @@ The table below is how the merged table looks like. As you can see, there are a 
 <br/>
 ![Finding3_2](images/Finding3_2.png)
 
-Therefore, I decided not to merge the two datasets but to create separate charts, showing the overall trend of violations and crashes throughout Chicago. Since the data in 2014 and 2019 are not complete (data starts from July in 2014 and ends in April (now) in 2019), I exclude those two years and focus on the **trend from 2015 to 2018**. <br/>
+Therefore, I decided not to merge the two datasets but to create separate charts, showing the overall trend of violations and crashes throughout Chicago by two seperate simple lines. Since the data in 2014 and 2019 are not complete (data starts from July in 2014 and ends in April (now) in 2019), I exclude those two years and focus on the **trend from 2015 to 2018**. <br/>
 <br/>
 More data wrangling detail can be found [here](Violations_Crashes_Data_Cleaning.ipynb)
 <br/>
