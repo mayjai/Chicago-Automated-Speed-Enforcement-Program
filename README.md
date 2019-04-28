@@ -1,5 +1,5 @@
 # Findings of Chicago's Automated Speed Enforcement Program
-A project on interesting findings in Chicago's Automated Speed Enforcement Program data
+A project on interesting findings of Chicago's Automated Speed Enforcement Program data
 
 ## High Violation is NOT due to Longer Enforcement Time
 **Datasets & the Columns Used** <br/>
