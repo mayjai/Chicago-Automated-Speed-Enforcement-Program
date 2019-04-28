@@ -65,8 +65,8 @@ The table below is how the merged table looks like. As you can see, there are a 
 <br/>
 ![Finding3_2](images/Finding3_2.png)
 
-Therefore, I decided not to merge the two datasets but to create separate charts, showing the overall trend of violations and crashes throughout Chicago. Since the data in 2014 and 2019 are not complete (data starts from July in 2014 and ends in April (now) in 2019), I exclude those two years and focus on the **trend from 2015 to 2018**.
-
+Therefore, I decided not to merge the two datasets but to create separate charts, showing the overall trend of violations and crashes throughout Chicago. Since the data in 2014 and 2019 are not complete (data starts from July in 2014 and ends in April (now) in 2019), I exclude those two years and focus on the **trend from 2015 to 2018**. <br/>
+More data wrangling detail can be found [here](Violations_Crashes_Data_Cleaning.ipynb)
 <br/>
 
 ![Finding3](images/Finding3.png)
