@@ -56,4 +56,33 @@ In the first version, I showed my finding of the trends for violations and crash
 The **Number of Violations** is calculated by summing the **Violations** in [Speed Camera Violations](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) for each year. 
 The **Number of Crashes** is calculated by counting the rows of the [Crashes Dataset](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if) for each year, which I cleaned by keeping only **speed-related crashes** and removing the unnecessary columns.
 
+<br/>
+<br/>
 
+## Data Source
+* Speed Camera Violations [Data](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4)
+* Speed Camera Locations [Data](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h)
+* Traffic Crashes - Crashes [Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
+
+<br/>
+<br/>
+
+## Revision History
+
+**Finding 1**
+
+<img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images/Finding1_1.png" width="80%" height="80%">
+
+<img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images/Finding1_2.png" width="80%" height="80%">
+
+<br/>
+
+**Finding 2**
+
+<img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images/Finding2.png" width="80%" height="80%">
+
+<br/>
+
+**Finding 3**
+
+<img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images/Finding3.png" width="80%" height="80%">
