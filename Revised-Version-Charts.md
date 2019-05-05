@@ -1,4 +1,4 @@
-# Findings & Documentation
+# Revised Version of Charts
 
 ## Revision of the Dashboard
 
