@@ -11,8 +11,6 @@ The overall changes include:
 * **Chart title**: change from descriptive titles to arguments
 <br/>
 
-**Revised Version**
-
 ![Revison_dashboard](images_revision/dashboard.png)
 
 <br/>
