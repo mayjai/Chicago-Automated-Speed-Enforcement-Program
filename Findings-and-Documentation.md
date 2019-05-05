@@ -27,7 +27,7 @@ The **Enforcement Days** is the number calculating the difference of the current
 
 From the top 10 cameras in the chart, I highlighted two cameras to emphasize the point. We can see that Camera 149 has the **higher number of violations** than Camera 058, but **lower number of enforcement days**. 
 
-
+<br/>
 <img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images_revision/1-1.png" width="50%" height="50%">
 
 Since **Camera 149** (CHI149) really stood out from others, I also compare the **weekday violation trend** of this particular camera with other cameras in general. We can see the violation weekday trends between CHI149 and other cameras in general are very different. CHI149 has higher number of violations on the **weekends**, while the overall trend has the highest number of violations on **Friday**. <br/>
