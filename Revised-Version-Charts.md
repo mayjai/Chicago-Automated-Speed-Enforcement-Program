@@ -34,12 +34,12 @@ From the top 10 cameras in the chart, I highlighted two cameras and labled the n
 <img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images_revision/1-1.png" width="50%" height="50%">
 
 Since **Camera 149** (CHI149) really stood out from others, I also compare the **weekday violation trend** of this particular camera with other cameras in general. We can see the violation weekday trends between CHI149 and other cameras in general are very different. CHI149 has higher number of violations on the **weekends**, while the overall trend has the highest number of violations on **Friday**. <br/>
-I created a calculated field to subset the violations for CHI149. The **orange** line in the above chart shows the sum of violations for  CHI149 for each weekday. The **gray** line shows the sum of violations from the original column in the dataset. The scales of them are very different, but since my purpose is to compare the trends, I thought it would make stronger point to show the two lines in the same chart.
+I created a calculated field to subset the violations for CHI149. The **orange** line in the above chart shows the sum of violations for  CHI149 for each weekday. The **gray** line shows the sum of violations from the original column in the dataset. The scales of them are very different, but since my purpose is to compare the trends, I thought it would make a stronger point to show the two lines in the same chart.
 
 <br/>
 <br/>
 
-## Finding 2: Some area has more violation issues than others within a Ward
+## Finding 2: Some area has more violation issues than others within the Same Ward
 
 <img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images_revision/2.png" width="80%" height="80%">
 
