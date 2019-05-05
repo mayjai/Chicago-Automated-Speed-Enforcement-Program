@@ -11,6 +11,9 @@ The overall changes include:
 * **Chart title**: change from descriptive titles to arguments
 <br/>
 
+**Revised Dashboard**
+<br/>
+
 ![Revison_dashboard](images_revision/dashboard.png)
 
 <br/>
@@ -20,12 +23,12 @@ The overall changes include:
 
 <img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images_revision/1.png" width="80%" height="80%">
 
-From data exploration in the last version, I found that the high number of violations is not necessary caused by longer camera enforcement time. To present the finding, I created a dual axis chart showing both the number of **violations** (bar) and the **enforcement time** (line), focusing on the **top 10 violation cameras**. 
+From data exploration in the last version, I found that the high number of violations is not necessary caused by longer camera enforcement time. To present the finding, I created a dual axis chart showing both the number of **violations** (bar) and the **enforcement time** (line), focusing on the **top 10 violation cameras**. The bars show the number of violations for each camera clearly, while the line tells how long each camera has been ernforced. 
 
 The **Number of Violations** is calculated by summing the **Violations** in [Speed Camera Violations](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4). 
 The **Enforcement Days** is the number calculating the difference of the current date and **Go-Live Date** in [Speed Camera Locations](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h).
 
-From the top 10 cameras in the chart, I highlighted two cameras to emphasize the point. We can see that Camera 149 has the **higher number of violations** than Camera 058, but **lower number of enforcement days**. 
+From the top 10 cameras in the chart, I highlighted two cameras and labled the numbers to emphasize the point. We can see that Camera 149 has the **higher number of violations** than Camera 058, but **lower number of enforcement days**. 
 
 <br/>
 <img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images_revision/1-1.png" width="50%" height="50%">
@@ -41,7 +44,7 @@ I created a calculated field to subset the violations for CHI149. The **orange**
 <img src="https://github.com/mayjai/Chicago-Automated-Speed-Enforcement-Program/blob/master/images_revision/2.png" width="80%" height="80%">
 
 In the first version, I found out that the number of violations of the cameras within a ward varies greatly and selected some wards as examples to show how large the differences are. <br/>
-Before, I compared each camera using the **number of violations** of each camera. In this version, I showed the **percentage** of total violations of all cameras within the same Ward for each camera, arguing that almost every ward has a camera with a very large number of violations (composed of more than 60% of the total violations within the ward) comparing to other cameras within the same ward. <br/> 
+Before, I compared each camera using the **number of violations** of each camera. In this version, I showed the **percentage** of total violations of all cameras within the same Ward for each camera, arguing that almost every ward has a camera with a very large number of violations (composed of more than 60% of the total violations within the ward) comparing to other cameras within the same ward. Those cameras with large number of violations are highlighted for easier comparison. <br/> 
 The **Percentage of Total Violations within a Ward** table calculation is the percent of total sum of violations compute using pane.
 
 <br/>
